@@ -1,0 +1,334 @@
+@media screen and (max-width: 1250px) {
+
+    .mission-statement-h span {
+        display: block;
+    }
+
+    .mission-statement-flex {
+        flex-direction: column;
+    }
+
+    .mission-statement-flex img {
+        border-radius: 60px 60px 30px 30px;
+        margin-left: 0;
+    }
+
+    .mission-statement-flex p {
+        text-align:justify;
+    }
+
+    .mission-statement .orange-p {
+        line-height: 1;
+        margin-top: 1.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .we-do-flex {
+        flex-direction: column;
+    }
+
+    .we-do-flex img {
+        width: 80%;
+        margin-left: 0;
+    }
+    
+    .we-do-flex p {
+        text-align: justify;
+    }
+
+    .feature-list {
+        flex-direction: column;
+    }
+
+    .feature-list div {
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .feature-list .orange {
+        display: none;
+    }
+
+    .orange2 {
+        display: block;
+    }
+
+    .features {
+        margin: 8rem 0 4rem;
+    }
+
+    .pricing-details {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing-details p {
+        text-align: justify;
+    }
+
+    .pricing-added-note {
+        margin-left: 0;
+    }
+
+    .pricing-details img {
+        width: 80%;
+        box-shadow: 0 0 4px;
+        border-radius: 100px 100px 20px 20px;
+    }
+
+    #pricing-section .orange-p {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .price-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-2 {
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .hidden-hero {
+        background-image: linear-gradient(45deg, #0041a3, #0092cc);
+        border-radius: 40px;
+    }
+    .hidden-hero button {
+        font-size: 1.6vw;
+    }
+
+    .fa-comment-dots {
+        font-size: 25vw;
+    }
+
+    #navbar {
+        margin: 0;
+        align-items: center;
+        z-index: 2;
+        position: fixed;
+        width: 90%;
+        left: 0;
+        top: 0;
+        background-color: white;
+        outline: solid 2px black;
+        border: none;
+        padding: 0 5%;
+    }
+
+    .navbar-logo {
+        height: 4rem;
+        width: auto;
+    }
+
+    .nav-btn {
+        display: inline-block;
+        border-radius: 5px;
+    }
+
+    .navbar-list {
+        position: fixed;
+        width: 100%;
+        right: 50%;
+        transform: translate(50%, 0);
+        text-align: center;
+        background-color: white;
+        padding-inline-start: 0;
+        padding-top: 1.5rem;
+        z-index: 1;
+        height: 100vh;
+        display: block;
+        transition: top 0.25s ease-in-out;
+    }
+
+    .above {
+        top: -100vh;
+    }
+
+    .navbar-item, .navbar-item-text {
+        margin-left: 0;
+    }
+
+    .navbar-item-text {
+        font-size: 1.75rem;
+    }
+
+    button.nav-btn {
+        background-color: white;
+    }
+
+    button .fa-solid {
+        font-size: 2rem;
+        width: 2rem;
+    }
+
+    #hero-section {
+        margin: 90px 10px 10px;
+    }
+    .hidden-hero .fa-solid {
+        font-size: 20vw;
+    }
+    .hidden-hero h2 {
+        font-size: 3vw;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 4vw;
+    }
+
+    .mission-statement {
+        margin: 1.5rem 0 0;
+    }
+
+    .mission-statement-h {
+        margin: 0;
+        font-size: 3.5vw;
+    }
+
+    .orange-p {
+        font-size: 2.75vw;
+    }
+
+    .footer-flex {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        margin: 0;
+    }
+
+    .footer-nav {
+        min-width: 280px;
+    }
+
+    .footer-brand img {
+        height: auto;
+        max-width: 325px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    h2 {
+        margin-bottom: 2rem;
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    p, a {
+        font-size: 1rem;
+    }
+
+    .hidden-hero .fa-solid {
+        font-size: 24vw;
+    }
+
+    .hidden-hero h2 {
+        font-size: 1.2rem;
+        margin: 1% 0 1.5%;
+    }
+
+    .hidden-hero button {
+        font-size: 1rem;
+        margin-bottom: 4%;
+    }
+
+    .mission-statement-h {
+        font-size: 1.3rem;
+    }
+
+    .mission-statement-flex img {
+        width: 90%;
+    }
+    
+    .orange-p {
+        font-size: 1.1rem;
+    }
+
+    #info-section {
+        margin: 2rem 10px;
+    }
+
+    .mission-statement {
+        margin: 0;
+    }
+
+    .mission-statement-h span {
+        display: inline;
+    }
+
+    .we-do {
+        margin: 4rem 0 0;
+    }
+
+    .we-do-flex img {
+        width: 90%;
+    }
+
+    .features {
+        margin: 4rem 0 0;
+    }
+
+    .feature-list div {
+        margin-bottom: 2rem;
+    }
+
+    #pricing-section {
+        margin: 0 10px 2rem;
+    }
+
+    .pricing-section-h {
+        margin-bottom: 0;
+    }
+
+    #pricing-section .orange-p {
+        margin-top: 0;
+    }
+
+    .pricing-details img {
+        width: 90%;
+    }
+
+    .pricing-p {
+        margin-top: 1.2rem;
+    }
+
+    .price-cards {
+        margin: 4rem auto;
+    }
+
+    .footer-nav {
+        margin: 2rem 0;
+    }
+
+    .footer-copy {
+        margin: 0;
+    }
+
+    .fa-ban {
+        font-size: 60vw;
+    }
+}
+
+/* @media screen and (max-width: 650px) {
+    #hero-section {
+        margin: 3rem 5% 2rem;
+    }
+    .hidden-hero button {
+        font-size: 2.5vw;
+    }
+    .hidden-hero h2 {
+        font-size: 4vw;
+    }
+} */
