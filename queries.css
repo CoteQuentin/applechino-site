@@ -160,7 +160,7 @@
   }
 
   .classic-footnotes p {
-    line-height: 0.75;
+    line-height: 1.5;
   }
 }
 
@@ -312,6 +312,40 @@
 
   .service-overview-flex-top {
     margin: 1rem 0 0;
+  }
+
+  /* About Page */
+
+  .about-us {
+    width: auto;
+    margin: 17%;
+  }
+
+  .about-us-flex-top {
+    flex-direction: column;
+  }
+
+  .about-us-flex-top img {
+    margin-right: 0;
+    height: auto;
+  }
+
+  .about-us-flex-1 {
+    flex-direction: column;
+  }
+
+  .about-us-flex-bottom-listing {
+    width: 100%;
+  }
+
+  .about-us-last-listing {
+    margin: 0;
+  }
+
+  /* Contact Page */
+
+  .contact {
+    margin: 90px 0 6rem;
   }
 }
 
@@ -475,7 +509,7 @@
     font-size: 1.2rem;
   }
 
-  .what-get-listing-h {
+  .listing-h {
     font-size: 1.1rem;
   }
 
@@ -504,4 +538,33 @@
   .individual-btn {
     margin: -1rem auto 3rem;
   }
+
+  /* About Page */
+
+  .about-us {
+    margin: 90px 10px 4rem;
+  }
+
+  .about-us-flex-top img {
+    max-width: 90%;
+  }
+
+  .about-us-top-right h3 {
+    font-size: 1.15rem;
+    text-align: center;
+  }
+
+  .about-added-note {
+    font-size: 1rem;
+  }
+
+  /* Contact Page */
+
+  .contact {
+    margin: 90px 10px 6rem;
+  }
+
+  form input, form textarea {
+    font-size: 0.75rem;
+}
 }
