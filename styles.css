@@ -610,10 +610,11 @@ footer p {
     width: 5%;
 }
 
-.what-get-listing-h {
+.listing-h {
     font-weight: 500;
     font-size: 1.3rem;
     color: #ff631b;
+    margin-bottom: 1rem;
 }
 
 .what-get-listing p:last-child {
@@ -705,6 +706,154 @@ footer p {
 .individual-btn:hover {
     background-color: rgb(218, 218, 218);
     box-shadow: 0 0 4px gray;
+}
+
+/* About Styles */
+
+.about-us {
+    max-width: 900px;
+    margin: 4rem auto 6rem;
+}
+
+.about-us h1 {
+    margin: auto;
+}
+
+.about-us-flex-top {
+    margin: 4rem auto 6rem;
+    display: flex;
+    align-items: center;
+}
+
+.about-us-flex-top img {
+    max-width: 450px;
+    margin-right: 4rem;
+    height: 400px;
+    background-image: linear-gradient(45deg, #0041a3, #0092cc);
+    box-shadow: 0 0 40px rgb(196 196 196);
+    margin-right: 4rem;
+    border-radius: 10%;
+}
+
+.about-us-top-right {
+    text-align: justify;
+}
+
+.about-us-top-right h3 {
+    color: #ff631b;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.about-us-flex-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us-flex-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us-flex-bottom-listing {
+    width: 45%;
+}
+
+.about-us-last-listing {
+    margin-top: -1rem;
+}
+
+.about-added-note {
+    color: #ff631b;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.about-us-bottom a {
+    color:#ff631b;
+}
+
+/* Contact Page */
+
+.contact {
+    margin: 6rem 0;
+}
+
+.contact h1 {
+    margin: 0 auto 4rem;
+}
+
+.contact-form {
+    margin: auto;
+    max-width: 400px;
+    box-shadow: 0 0 3px 1px gray;
+    background-image: linear-gradient(340deg, #eaf4f8, transparent);
+}
+
+.contact-form form {
+    padding: 25px 25px 60px;
+}
+
+.contact-form p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.contact-form h2 {
+    font-weight: 500;
+    color: #0041a3;
+    padding: 40px 0 0;
+    margin: 0;
+}
+
+.decoy {
+    display: none;
+}
+
+form input, form textarea {
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    box-shadow: 0 0 2px grey;
+    box-sizing:border-box;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    box-shadow: 0 0 3px;
+}
+
+input:hover, textarea:hover {
+    outline: none;
+    box-shadow: 0 0 2px;
+}
+
+form textarea {
+    display: block;
+    resize: none;
+}
+
+form button {
+    padding: 0.5rem .75rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 0 2px gray;
+    margin-top: 2rem;
+    border: solid 1px black;
+    background-color:#57cfff;
+}
+
+form button:hover {
+    box-shadow: 0 0 3px 1px #001d4a;
+    background-color: #00b7ff;
+}
+
+/* Success Page */
+
+.success-contact {
+    margin: 10rem auto;
 }
 
 /* Preview Styles */
