@@ -390,6 +390,10 @@
     margin: 1.5rem auto 4rem;
   }
 
+  #new-hero a {
+    text-decoration: none;
+  }
+
   .hidden-hero .fa-solid {
     font-size: 24vw;
   }
